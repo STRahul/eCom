@@ -1,0 +1,81 @@
+$icon-font: 1.3em;
+$element-height: 2.4em;
+
+.header{
+    max-width: 100%;
+    box-shadow: 5px 5px 20px gray;
+  }
+  
+  .header-row div{
+    display: inline-block;
+  }
+  .brand{
+    color: white;
+    margin-left: 2%;
+    padding: 0.8em;
+    width: 23%;
+  }
+  
+  .inp-container {
+    border-radius: 8px;
+  }
+  .inp-container input {
+    display: inline-block;
+    width: 75%;
+    height: $element-height;
+    border-radius: 0;
+  }
+  
+  .inp-container button{
+    width: 10%;
+    border: none;
+    background: #dadada;
+    height: $element-height;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  .dropdown{
+    width: 15%;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  .select-btn {
+    height: $element-height;
+    border: none;
+    background-color: #dadada;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  .login-container{
+    width: 15%;
+    color: white;
+    text-align: right;
+    margin: 1.7em 0.2em 0 0;
+  }
+  .login-container h5, i{
+    display: inline-block;
+  }
+  
+  .login-container a{
+    text-decoration: none;
+    color: white;
+  }
+  .user-icon {
+    margin-right: 0.4em;
+    padding: 0.2em;
+    font-size: $icon-font;
+  }
+  
+  .cart-wishlist{
+    width: 7%;
+    margin-top: 1.7em;
+    margin-left: 1em;
+  }
+  
+  .cart-wishlist .list-icon{
+     color: white;
+     font-size: $icon-font;
+     list-style-type: none;
+     display: inline-block;
+     margin-right: 0.5em;
+  }

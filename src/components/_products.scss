@@ -14,7 +14,6 @@
         .product-image-container {
             display: flex;
             justify-content: center;
-            
             img {
                 border-radius: 0.4em;
             }
@@ -44,6 +43,33 @@
                     color: gold;
                     font-size: small;
                 }
+            }
+        }
+        .cart-btn{
+            display: flex;
+            justify-content: space-evenly;
+            border: 1px solid black;
+            border-radius: 1em;
+            margin-top: 1em;
+            height: 2em;
+
+            .cart-icon-container {
+                padding: 0.3em;
+                width: 2em;
+                i{
+                    font-size: 1.2em;
+                }
+            }
+            .cart-text-container {
+               padding: 0.2em;
+               p{
+                font-weight: 600;
+                font-size: 1em;
+               }
+            }
+            &:hover {
+                cursor: pointer;
+                box-shadow: inset #dcdcdc 1px 2px 5px;
             }
         }
     }

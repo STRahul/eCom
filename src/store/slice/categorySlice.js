@@ -3,7 +3,50 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 export const getCategories = createAsyncThunk(
     'getCategories',
     ()=>{
-        const categories = ["Men","Women","Kids","Best Offers","All"];
+        const categories = [
+            {
+                id:1,
+                category: 'Men',
+                parent_category_id: null,
+            },
+            {
+                id:4,
+                category: 'Women',
+                parent_category_id: null,
+            },
+            {
+                id:5,
+                category: 'Kids',
+                parent_category_id: null,
+            },
+            {
+                id:2,
+                category: 'Casual Wear',
+                parent_category_id: 1,
+            },
+            {
+                id:6,
+                category: 'Party Wear',
+                parent_category_id: 4,
+            },
+            {
+                id:7,
+                category: 'Foot Wear',
+                parent_category_id: 4,
+            },
+            {
+                id:8,
+                category: 'Accessories',
+                parent_category_id: 4,
+            },
+            {
+                id:3,
+                category: 'Accessories',
+                parent_category_id: 5,
+            },
+
+
+        ];
         return categories;
     }
 )

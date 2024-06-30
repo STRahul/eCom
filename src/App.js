@@ -9,6 +9,7 @@ import {
 import ProductDetails from './components/ProductDetails';
 import Layout from './components/Layout';
 import Cart from './components/Cart';
+import Auth from './components/Auth';
 
 const appRouter = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const appRouter = createBrowserRouter([
       {
         path: 'cart',
         element: <Cart />
+      },
+      {
+        path: 'auth',
+        element: <Auth />
       }
     ]
   },

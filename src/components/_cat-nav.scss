@@ -22,3 +22,11 @@
         }
     }
 }
+
+@media screen and (width <= 480px) {
+    .cat-nav-container {
+        .list-items {
+            margin: 0.2em 0.5em;
+        }
+    }
+}
